@@ -32,10 +32,10 @@ class App extends Component {
       { Course: "Political Economics", Term: 1, Credit: 3.5, Score: 95, Teacher: "Jan.Kotas" },
       { Course: "Basic of Computer", Term: 1, Credit: 2, Score: 85, Teacher: "Steven.Thorpe" },
       { Course: "Micro-Economics", Term: 1, Credit: 4, Score: 62, Teacher: "Jan.Kotas" },
-      { Course: "Linear Algebra", Term: '', Credit: '', Score: '', Teacher: "" },
-      { Course: "Accounting", Term: '', Credit: '', Score: '', Teacher: "" },
-      { Course: "Statistics", Term: '', Credit: '', Score: '', Teacher: "" },
-      { Course: "Marketing", Term: '', Credit: '', Score: '', Teacher: "" }
+      { Course: "Linear Algebra", Term: null, Credit: null, Score: null, Teacher: null },
+      { Course: "Accounting", Term: null, Credit: null, Score: null, Teacher: null },
+      { Course: "Statistics", Term: null, Credit: null, Score: null, Teacher: null },
+      { Course: "Marketing", Term: null, Credit: null, Score: null, Teacher: null }
     ];
     spread.suspendPaint();
     const table = sheet.tables.addFromDataSource("Table1", 2, 1, source, spreadNS.Tables.TableThemes.medium2);
